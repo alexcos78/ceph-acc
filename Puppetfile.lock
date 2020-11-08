@@ -1,0 +1,24 @@
+FORGE
+  remote: https://forgeapi.puppetlabs.com
+  specs:
+    duritong-sysctl (0.0.12)
+    puppetlabs-apache (5.6.0)
+      puppetlabs-concat (< 7.0.0, >= 2.2.1)
+      puppetlabs-stdlib (< 7.0.0, >= 4.13.1)
+    puppetlabs-apt (2.4.0)
+      puppetlabs-stdlib (< 5.0.0, >= 4.13.0)
+    puppetlabs-concat (2.2.1)
+      puppetlabs-stdlib (< 5.0.0, >= 4.2.0)
+    puppetlabs-inifile (2.5.0)
+      puppetlabs-translate (< 2.0.0, >= 1.0.0)
+    puppetlabs-stdlib (4.25.1)
+    puppetlabs-translate (1.2.0)
+
+DEPENDENCIES
+  duritong-sysctl (< 1.0.0, >= 0.0.1)
+  puppetlabs-apache (>= 3.0.0)
+  puppetlabs-apt (< 3.0.0, >= 2.0.0)
+  puppetlabs-concat (< 3.0.0, >= 1.2.1)
+  puppetlabs-inifile (< 3.0.0, >= 2.0.0)
+  puppetlabs-stdlib (< 6.0.0, >= 4.6.0)
+
